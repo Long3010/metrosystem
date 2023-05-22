@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        select {
+            background-image: url('./image/Icon/menu_Icon/score.png');
+
+        }
+    </style>
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/footer__wrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/header__wrap.css">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCMC Metro</title>
+</head>
+
+<body>
+    <div class="metro_home--page">
+        <div class="chat__suport--">
+            <button class="chat">
+                CHAT VỚI<br>
+                TƯ VẤN VIÊN
+                <img class="__img" src="./image/Icon/messenger.png" alt="">
+            </button>
+        </div>
+        <div class="header__page--wrap">
+            <div class="metro_Logo">
+                <a href="./index.php"><img src="./image/Logo/Logo.png" alt="HCHC"></a>
+            </div>
+            <div class="train__info--wrap" onmouseleave="hide__train()">
+                <a href="./train_experience1.php">M1</a>
+                <a href="./train_experience2.php">M2</a>
+                <a href="./train_experience1.php">M3</a>
+                <a href="./train_experience2.php">M4</a>
+            </div>
+            <div class="menu">
+                <a href="./home.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/house.png" alt=""> TRANG
+                    CHỦ</a>
+                <a href="./new.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/new.png" alt=""> TIN
+                    METRO</a>
+                <a style="cursor: pointer;" onmouseenter="show__train()"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/train.png" alt=""> TUYẾN
+                    TÀU <img class="score__btn--wrap" src="./image/Icon/menu_Icon/score.png" alt=""></a>
+                <a class="active" href="./search.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/search.png" alt=""> TRA
+                    CỨU</a>
+                <a href="./action.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/work.png" alt=""> HOẠT
+                    ĐỘNG</a>
+                <a href="./support.paction.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/contact.png" alt=""> HỖ
+                    TRỢ</a>
+            </div>
+            <div class="right__nav--wrap">
+
+                <div class="search_bar">
+                    <img src="./image/Icon/search.png" class="search_icon" alt="search_icon">
+                    <input type="text" placeholder="Say something">
+                </div>
+                <a href="./profile.php" class="account__png--wrap">
+                    <img src="./image/Account_IMG/Account1.png" alt="user_02158">
+                </a>
+            </div>
+        </div>
+        <div class="index__blank--wrap"></div>
+
+        <div style="background-image: url('./image/Background__img/index_page/landmark__Img.png');" class="ontop__content--wrap">
+        </div>
+
+        <div class="center__homepage--content">
+            <div class="center__newcontent--menu">
+                <button class="show__centernewcontent--wrap">
+                    <img src="./image/Icon/menu_Icon/red_score.png" alt="">
+                    <h1 class="menu__big--content">TRA CỨU</h1>
+                    <div class="line__menucontent--wrap">
+                    </div>
+                </button>
+            </div>
+            <div class="content__insearchpage-wrap">
+                <div class="tram__wrap">
+                    <label for="tram">Chọn trạm</label>
+                    <select name="tram" id="tram">
+                        <option value="Bạch Đằng">Bạch Đằng</option>
+                        <option value="Ba Son">Ba Son</option>
+                        <option value="An Đông">An Đông</option>
+                        <option value="Bến Thành">Bến Thành</option>
+                        <option value="Chợ Lớn">Chợ Lớn</option>
+                        <option value="Hàng Xanh">Hàng Xanh</option>
+                    </select>
+
+                </div>
+                <div class="tram__wrap tuyen__wrap">
+                    <label for="tuyen">Chọn Tuyến</label>
+                    <select name="tuyen" id="tuyen">
+                        <option value="M1">M1</option>
+                        <option value="M2">M2</option>
+                        <option value="M3">M3</option>
+                        <option value="M4">M4</option>
+                        <option value="M5">M5</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="feel__train--wrap">
+                <div style="background-image: url('./image/Background__img/search_page/Picture1.png');" class="findout__with--tram">
+                    <div class="wrap__to--feel">
+                        <h2 class="felt__text--wrap">Trải nghiệm không gian trạm</h2>
+                        <button class="btn__of--khampha">Khám phá</button>
+                    </div>
+                </div>
+                <div style="background-image: url('./image/Background__img/search_page/Picture2.png');" class="findout__with--tram with__tuyen">
+                    <div class="wrap__to--feel">
+                        <h2 class="felt__text--wrap">Trải nghiệm không gian toa tàu</h2>
+                        <button class="btn__of--khampha">Khám phá</button>
+                    </div>
+                </div>
+            </div>
+            <div class="center__menuchoice--wrap">
+                <button>Lộ trình</button>
+                <button style="color:#337AB1">Trải nghiệm</button>
+                <button>Bản đồ</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div style="background-image: url('./image/Picture/left_footer.png');" class="footer__left--wrap">
+                <div style="background-image:url('./image/Picture/Lhouse.png');" class="img__decription--wrap"></div>
+                <div class="footer__contact--wrap">
+
+                    <tr>
+                        <td>
+                            <h2>THÔNG TIN LIÊN HỆ</h2>
+                        </td>
+                        <td>
+                            <h3>Ban quản lý đường sắt đô thị</h3>
+                        </td>
+                        <td>
+                            <p style="font-weight: 400; line-height: 19px;">Số điện thoại: <a style="font-weight: 600;">090
+                                    098 8223</a> </p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px;font-weight: 400;">Email: <a style="font-weight: 600;">duongmetro@faq.com.vn</a></p>
+                        </td>
+                        <td>
+                            <a href=""><img src="./image/Icon/facebook_icon.png" alt="facebook_icon"></a>
+                            <a href=""><img src="./image/Icon/youtube_icon.png" alt="youtube_icon"></a>
+                            <a href=""><img src="./image/Icon/phone_icon.png" alt="phone_icon"></a>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+            <div class="footer__middle--wrap">
+                <div class="btn__wrap--footer">
+                    <button><img src="./image/Icon/footer_icon/question_icon.png" alt="">FAQ</button>
+                    <button><img style="left:40px" src="./image/Icon/footer_icon/than_icon.png" alt="">Hỗ trợ khẩn
+                        cấp</button>
+                </div>
+                <a class="logo__footer--img">
+                    <img src="./image/Logo/Logo.png" alt="">
+                </a>
+                <div class="train__footer--contact">
+                    <a href="">Tuyến M1</a>
+                    <a href="">Tuyến M2</a>
+                    <a href="">Tuyến M3</a>
+                </div>
+            </div>
+            <div style="background-image: url('./image/Picture/right_footer.png');" class="footer__right--wrap">
+                <div style="background-image: url('./image/Picture/Rhouse.png');" class="img__right--wrap"></div>
+                <div class="right__contact--wrap">
+                    <a href="">Chính sách khuyến mãi</a>
+                    <a href="">Điều khoản đi tàu</a>
+                    <a href="">Cam kết của chúng tôi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

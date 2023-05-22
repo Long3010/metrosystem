@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .middle__page--wrap {
+            position: relative;
+        }
+
+        .left__actioncontent--wrap {
+            width: 1058px;
+            position: relative;
+        }
+
+        .left__actioncontent--wrap img {
+            width: 983px;
+            height: 451px;
+        }
+
+        .left__actioncontent--wrap * {
+            margin-bottom: 16px;
+        }
+
+        .cotent__with--date {
+            margin-bottom: 39px;
+        }
+
+        .date {
+            position: absolute;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #6E6E6E;
+            top: 498px;
+            height: 19px;
+        }
+
+        .watchmore {
+            top: 583px;
+            right: 73px;
+        }
+
+        .left__contentaction--wrap {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .content__wrap--atrightpaage {
+            width: 517px;
+            height: 561px;
+            margin-right: 12px;
+        }
+
+
+        .content__wrap--atrightpaage img {
+            width: 517px;
+            height: 389px;
+        }
+
+        .right__contentaction--wrap {
+            position: absolute;
+            top: 110px;
+            left: 1083px;
+        }
+
+        .right__contentaction--wrap .action__ad--2 img {
+            width: 100%;
+            height: 821px;
+            margin-bottom: 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/new.css">
+    <link rel="stylesheet" href="./css/footer__wrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/header__wrap.css">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCMC Metro</title>
+</head>
+
+<body>
+    <div class="metro_home--page">
+
+        <div class="chat__suport--">
+            <button class="chat">
+                CHAT VỚI<br>
+                TƯ VẤN VIÊN
+                <img class="__img" src="./image/Icon/messenger.png" alt="">
+            </button>
+        </div>
+        <div class="header__page--wrap">
+            <div class="metro_Logo">
+                <a href="./index.php"><img src="./image/Logo/Logo.png" alt="HCHC"></a>
+            </div>
+            <div class="train__info--wrap" onmouseleave="hide__train()">
+                <a href="./train_experience1.php">M1</a>
+                <a href="./train_experience2.php">M2</a>
+                <a href="./train_experience1.php">M3</a>
+                <a href="./train_experience2.php">M4</a>
+            </div>
+            <div class="menu">
+                <a href="./home.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/house.png" alt=""> TRANG
+                    CHỦ</a>
+                <a href="./new.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/new.png" alt=""> TIN
+                    METRO</a>
+                <a style="cursor: pointer;" onmouseenter="show__train()"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/train.png" alt=""> TUYẾN
+                    TÀU <img class="score__btn--wrap" src="./image/Icon/menu_Icon/score.png" alt=""></a>
+                <a href="./search.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/search.png" alt=""> TRA
+                    CỨU</a>
+                <a class="active" href="./action.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/work.png" alt=""> HOẠT
+                    ĐỘNG</a>
+                <a href="./support.php"><img class="img__wrap--nav" src="./image/Icon/menu_Icon/contact.png" alt=""> HỖ
+                    TRỢ</a>
+            </div>
+            <div class="right__nav--wrap">
+
+                <div class="search_bar">
+                    <img src="./image/Icon/search.png" class="search_icon" alt="search_icon">
+                    <input type="text" placeholder="Say something">
+                </div>
+                <a href="./profile.php" class="account__png--wrap">
+                    <img src="./image/Account_IMG/Account1.png" alt="user_02158">
+                </a>
+            </div>
+        </div>
+        <div class="content__page--wrap">
+            <div class="index__blank--wrap"></div>
+            <div class="middle__page--wrap ">
+                <div class="mini__menucontent--wrap">
+                    <a href="./home.php">
+                        <img src="./image/Icon/menu_Icon/home_hover.png" alt="">
+                    </a>
+                    <img src="./image/Icon/menu_Icon/score_blank.png" alt="">
+                    <button href="" class="__a--at btn__as_alink">Hoạt động</button>
+                </div>
+                <div class="show__waw">
+                    <button onclick="window.location.href='./action_dangdienra.php'" class="show__centernewcontent--wrap">
+                        <img src="./image/Icon/menu_Icon/red_score.png" alt="">
+                        <h1 class="menu__big--content">ĐANG DIỄN RA</h1>
+                        <div class="line__menucontent--wrap"></div>
+                    </button>
+                </div>
+                <div class="left__actioncontent--wrap">
+                    <img class="__img__" src="./image/Background__img/action_page/Picture2.png" alt="">
+                    <h2 class="cotent__with--date">Non pretium auctor adipiscing tincidunt magna elementum Lectus
+                        elementum adipiscing venenatis.</h2>
+                    <div class="date">12/12/2021</div>
+                    <p>Non pretium auctor adipiscing tincidunt magna. Lectus elementum adipiscing venenatis. Non pretium
+                        auctor adipiscing tincidunt <br>magna. Lectus elementum adipiscing venenatis. Non pretium auctor
+                        adipiscing tincidunt magna. Lectus elementum adipiscing <br>venenatis...</p>
+                    <a class="date watchmore">Xem Thêm</a>
+                    <div class="left__contentaction--wrap">
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/new_page/Picture3.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture3.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture4.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture5.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture6.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture7.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture8.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                        <div class="content__wrap--atrightpaage">
+                            <img src="./image/Background__img/action_page/Picture9.png" alt="">
+                            <div class="btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</h3>
+                            <div class="content__iconcontact--wrap">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right__contentaction--wrap">
+                    <a href="" class="action__ad--2">
+                        <img src="./image/ad/action/Lazada2.png" alt="">
+                    </a>
+                    <div class="show__waw">
+                        <button class="show__centernewcontent--wrap">
+                            <img src="./image/Icon/menu_Icon/red_score.png" alt="">
+                            <h1 class="menu__big--content">ĐÃ KẾT THÚC</h1>
+                            <div class="line__menucontent--wrap"></div>
+                        </button>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture10.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture11.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture12.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture13.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture14.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture15.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture16.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture17.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture18.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__right_sameinfo--wrap">
+                        <img src="./image/Background__img/action_page/Picture19.png" alt="">
+                        <div class="content__insite__sameinfor">
+                            <div class="margin__Content btn__and--date">
+                                <button class="btn__metro">
+                                    <div class="bland__icon"></div>TIN METRO
+                                </button>
+                                <p>12/12/2021</p>
+                            </div>
+                            <h3 class="margin__Content">Amet minim mollit non deserunt ullamco est sit </h3>
+                            <div class="content__iconcontact--wrap margin__Content">
+                                <p><img src="./image/Icon/content__icon/eye.png" alt="">8.9k</p>
+                                <p><img src="./image/Icon/content__icon/heart.png" alt="">6.8k</p>
+                                <p><img src="./image/Icon/content__icon/cmt.png" alt="">580</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div style="background-image: url('./image/Picture/left_footer.png');" class="footer__left--wrap">
+                <div style="background-image:url('./image/Picture/Lhouse.png');" class="img__decription--wrap"></div>
+                <div class="footer__contact--wrap">
+
+                    <tr>
+                        <td>
+                            <h2>THÔNG TIN LIÊN HỆ</h2>
+                        </td>
+                        <td>
+                            <h3>Ban quản lý đường sắt đô thị</h3>
+                        </td>
+                        <td>
+                            <p style="font-weight: 400; line-height: 19px;">Số điện thoại: <a style="font-weight: 600;">090
+                                    098 8223</a> </p>
+                        </td>
+                        <td>
+                            <p style="font-size: 16px;font-weight: 400;">Email: <a style="font-weight: 600;">duongmetro@faq.com.vn</a></p>
+                        </td>
+                        <td>
+                            <a href=""><img src="./image/Icon/facebook_icon.png" alt="facebook_icon"></a>
+                            <a href=""><img src="./image/Icon/youtube_icon.png" alt="youtube_icon"></a>
+                            <a href=""><img src="./image/Icon/phone_icon.png" alt="phone_icon"></a>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+            <div class="footer__middle--wrap">
+                <div class="btn__wrap--footer">
+                    <button><img src="./image/Icon/footer_icon/question_icon.png" alt="">FAQ</button>
+                    <button><img style="left:40px" src="./image/Icon/footer_icon/than_icon.png" alt="">Hỗ trợ khẩn
+                        cấp</button>
+                </div>
+                <a class="logo__footer--img">
+                    <img src="./image/Logo/Logo.png" alt="">
+                </a>
+                <div class="train__footer--contact">
+                <a href="./train_experience1.php">Tuyến M1</a>
+                <a href="./train_experience2.php">Tuyến M2</a>
+                <a href="./train_experience1.php">Tuyến M3</a>
+                </div>
+            </div>
+            <div style="background-image: url('./image/Picture/right_footer.png');" class="footer__right--wrap">
+                <div style="background-image: url('./image/Picture/Rhouse.png');" class="img__right--wrap"></div>
+                <div class="right__contact--wrap">
+                    <a href="">Chính sách khuyến mãi</a>
+                    <a href="">Điều khoản đi tàu</a>
+                    <a href="">Cam kết của chúng tôi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

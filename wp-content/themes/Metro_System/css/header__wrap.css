@@ -1,0 +1,136 @@
+.header__page--wrap {
+    display: flex;
+    height: 74px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.index__blank--wrap{
+    width: 100%;
+    height: 74px;
+}
+.metro_Logo {
+    margin-left: 160.96px;
+}
+
+.metro_Logo img {
+    width: 111px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    top: 18px;
+    bottom: 12px;
+    left: 431px;
+    position: absolute;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 16px;
+    width: 130px;
+    height: 50px;
+    margin-right: 6px;
+}
+.menu a:hover{
+    color: rgba(0, 89, 157, 1);
+}
+
+.menu a img {
+    width: 19px;
+    height: 20px;
+}
+
+.search_bar {
+    display: flex;
+    height: 36px;
+    width: 251px;
+    border: 1px solid #337AB1;
+    border-radius: 4px;
+    position: relative;
+    align-items: center;
+    margin-right: 12px;
+    color: rgba(51, 122, 177, 1);
+}
+
+.search_bar input {
+    width: 99px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #99BDD8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 44px;
+    border: none;
+}
+
+.search_bar input:hover {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.search_bar img {
+    position: absolute;
+    width: 14.98px;
+    height: 14.98px;
+    left: 14.32px;
+
+}
+
+.right__nav--wrap {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.right__nav--wrap .account__png--wrap img {
+    width: 61px;
+    height: 92;
+    border-radius: 90%;
+    cursor: pointer;
+    margin-right: 153px;
+}
+.img__wrap--nav{
+    margin-bottom: -3px;
+}
+.score__btn--wrap{
+    position: absolute;
+    top: 6px;
+}
+.header__page--wrap .train__info--wrap{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgba(61, 61, 61, 1);
+    padding: 6px 10px;
+    border-radius: 8px;
+    top: 48px;
+    left:710px;
+    z-index: 1;
+    width: 110px;
+}
+.header__page--wrap .train__info--wrap a{
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: rgba(61, 61, 61, 1);
+}
+.header__page--wrap .train__info--wrap a:hover{
+    color: rgba(0, 89, 157, 1);
+}
+.active{
+    color: rgba(0, 89, 157, 1);
+}

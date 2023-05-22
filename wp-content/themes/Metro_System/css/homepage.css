@@ -1,0 +1,149 @@
+.metro_home--page{
+    width: 1920px;
+    height: 100%;
+}
+.middle__page--wrap{
+    height: 1113px;
+}
+.ontop__content--wrap {
+    position: relative;
+    width: 1920px;
+    height: 303px;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: cover;
+    
+}
+
+.ontop__content--wrap .content__top--wrap {
+    background: rgba(0, 89, 157, 0.6);
+    width: 911px;
+    height: 203px;
+    left: 504px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.center__top--wrap {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.center__top--wrap h3 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.center__top--wrap p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line__ct--wrap {
+    width: 1px;
+    background: #D8EFFF;
+    height: 70px;
+}
+
+.content__top--wrap h1 {
+    margin-top: 24px;
+    margin-left: 47px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ct--wrap {
+    margin-left: 91px;
+}
+
+.center--icon__content {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+.center__icon--p {
+    margin-top: 0;
+}
+
+.ad__premium--wrap {
+    width: 100%;
+    margin-left: -70px;
+    margin-top: 24px;
+}
+
+.link__homepage--shape {
+    background: #CCDEEB;
+    width: 300px;
+    height: 119px;
+    border-radius: 12px;
+}
+
+.menu__homepage--wrap {
+    width: 100%;
+    position: relative;
+}
+
+.menu__homepage--wrap .group__link--wrap {
+    position: absolute;
+    left: 318px;
+    display: flex;
+    width: 980px;
+    height: 119px;
+    justify-content: space-between;
+}
+
+.group1__of--linkwrap {
+    top: 96px;
+}
+
+.group2__of--linkwrap {
+    top: 335px;
+}
+
+.link__homepage--shape {
+    position: relative;
+}
+
+.link__homepage--shape img {
+    position: absolute;
+    width: 150.92px;
+    height: 136px;
+    left: 75px;
+    top: -68px;
+}
+
+.link__homepage--shape h3 {
+    position: absolute;
+    bottom: 12px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+}
+.link__menu--homepage:hover{
+    background-color: black;
+}
